@@ -14,8 +14,21 @@ if day_of_week == "Friday":
 else:
     print("incorrect") """
 
-odd_or_even = input("Is the number odd or even ")
-if odd_or_even % 2 == 0:
+""" number=7
+if number % 2 == 0:
     print("even")
 else:
-    print("odd")
+    print("odd") """
+
+service= 
+"bad": 0
+"okay": 0.15
+"good": 0.20
+"great": 0.25
+
+
+service=()
+
+
+
+ 
