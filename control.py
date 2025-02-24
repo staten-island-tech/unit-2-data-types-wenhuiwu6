@@ -3,6 +3,5 @@ def login(password):
         print("login in")
     elif:  # if else
     else:
-            print ("inco")
         print ("inco")
    
