@@ -1,9 +1,8 @@
 def login(password):
     if password == "secret":
         print("login in")
+    elif:  # if else
     else:
             print ("inco")
-
-
-
-    elif # if else
+        print ("inco")
+   
