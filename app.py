@@ -30,14 +30,8 @@ for i in range (1, number +1):
 
 print (GCF(9,3)) """
 
-
-
-
-
-
-
-
-""" def skins(money, age, cost, isAvailable):
+# similiar to the quiz 
+def skins(money, age, cost, isAvailable):
     if money < 10 or age <18 or isAvailable ==False:
         return ("cannot buy")
 def skins(money, age, cost, isAvailable):
@@ -47,7 +41,8 @@ def skins(money, age, cost, isAvailable):
         else: 
             print ("Lucas Broke Boy")
     else: 
-        print("not available ") """
+        print("not available ")
+
 def skins(money, age, cost, isAvailable):
     if isAvailable and money >= cost: 
-        
+        print ("can purcahse")
