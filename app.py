@@ -10,23 +10,28 @@ if number % 2 == 0:
 else:
     print("odd")  """
 
-""" bill= 400
-service= "good"
+""" bill= input("bill: ")
+service= input("How's the service: ")
+tip_percent=0
 if service == ("bad") :
-    print("0.0")
+    tip_percent == 0.0
 elif service == ("okay") :
-    print("0.15")
+    tip_percent == 0.15
 elif service == ("good") :
-    print("0.20")
+    tip_percent == 0.20
 elif service == ("great") :
-    print("0.25")  
-else: 
-    print("invalid")  """
+    tip_percent == 0.25 
 
-""" number = 12
-for i in range (1, number +1): 
+tip = bill * tip_percent
+total = bill + tip
+print(tip) 
+print(total)
+ """
+
+number = 12
+for i in range (1, number +1):
     if(number % i== 0):
-        print(i) """
+        print(i)
 
 """ def GCF(x,y):
     if y==0:
