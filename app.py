@@ -1,3 +1,9 @@
+""" sentence = input("input a sentence: ")
+def counting_words(sentence):
+    words= sentence.split( )
+    return len(words)
+print("number of words in sentence:",counting_words(sentence)) """
+
 """ number=7
 if number % 2 == 0:
     print("even")
@@ -17,18 +23,34 @@ elif service == ("great") :
 else: 
     print("invalid")  """
 
-""" number = 12
+
+""" number = 14
 for i in range (1, number +1): 
-    if(number % i== 0):
+    if number % i== 0:
         print(i) """
 
-""" def GCF(x,y):
+
+number1= 12
+factors_of_number1 = []
+for i in range (1, number1 +1): 
+    if number1 % i== 0:
+        factors_of_number1.append(i)
+number2= 60
+factors_of_number2 = []
+for o in range (1, number2 +1): 
+    if number2 % o== 0:
+        factors_of_number2.append(o)
+
+common_factors= list(set(factors_of_number1) & set(factors_of_number2))
+gcf = max(common_factors)
+print("The GCF is:", gcf)
+
+"""def GCF(x,y):
     if y==0:
         return (x)
     else: 
         return GCF(y, x % y)
-
-print (GCF(9,3)) """
+ print (GCF(9,3))"""
 
 # similiar to the quiz 
 def skins(money, age, cost, isAvailable):
