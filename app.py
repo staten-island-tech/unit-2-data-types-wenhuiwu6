@@ -8,27 +8,26 @@ print("number of words in sentence:",counting_words(sentence)) """
 if number % 2 == 0:
     print("even")
 else:
-    print("odd") """
+    print("odd")  """
 
-""" bill= 400
-service= "good"
+""" bill= input("bill: ")
+service= input("How's the service: ")
+tip_percent=0
 if service == ("bad") :
-    print("0.0")
+    tip_percent == 0.0
 elif service == ("okay") :
-    print("0.15")
+    tip_percent == 0.15
 elif service == ("good") :
-    print("0.20")
+    tip_percent == 0.20
 elif service == ("great") :
     print("0.25")  
 else: 
     print("invalid")  """
 
-
-""" number = 14
+""" number = 12
 for i in range (1, number +1): 
-    if number % i== 0:
+    if(number % i== 0):
         print(i) """
-
 
 number1= 12
 factors_of_number1 = []
@@ -50,9 +49,10 @@ print("The GCF is:", gcf)
         return (x)
     else: 
         return GCF(y, x % y)
- print (GCF(9,3))"""
 
-# similiar to the quiz 
+print (GCF(9,3)) """
+
+""" # similiar to the quiz 
 def skins(money, age, cost, isAvailable):
     if money < 10 or age <18 or isAvailable ==False:
         return ("cannot buy")
@@ -67,4 +67,4 @@ def skins(money, age, cost, isAvailable):
 
 def skins(money, age, cost, isAvailable):
     if isAvailable and money >= cost: 
-        print ("can purcahse")
+        print ("can purcahse") """
