@@ -1,13 +1,15 @@
 balance= 500
 
-while True:
-    withdrawal=input("How much do you want to withdraw? (type exit to quit): ")
-    if withdrawal == 'exit': 
+while True :
+    do_you=input("Do you want to withdraw? (type exit to quit or yes to continue): ")
+    if do_you == 'exit': 
         break
-    elif withdrawal>balance:
+    how_much= input("How much do you want to withdraw?: ")
+    withdrawl = int(how_much)
+    if withdrawl > balance:
         print("insufficient funds so try again")
-    elif withdrawal<=balance:
-        new_balance = balance - withdrawal
+    if withdrawl <= balance:
+        new_balance = balance - withdrawl
         print(f"New balance: ${new_balance}")
     else:
         print("invalid")
