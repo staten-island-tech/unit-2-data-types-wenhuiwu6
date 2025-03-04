@@ -1,56 +1,55 @@
-""" sentence = input("input a sentence: ")
+""" #how much words
+sentence = input("input a sentence: ")
 def counting_words(sentence):
     words= sentence.split( )
     return len(words)
 print("number of words in sentence:",counting_words(sentence)) """
 
-""" number=7
+""" #odd or even
+number=7
 if number % 2 == 0:
     print("even")
 else:
-    print("odd")  """
+    print("odd") """
 
-""" bill= input("bill: ")
+""" #tip calculator
+bill= float(input("bill: "))
 service= input("How's the service: ")
 tip_percent=0
 if service == ("bad") :
-    tip_percent == 0.0
+    tip_percent = 0.0
 elif service == ("okay") :
-    tip_percent == 0.15
+    tip_percent = 0.15
 elif service == ("good") :
-    tip_percent == 0.20
+    tip_percent = 0.20
 elif service == ("great") :
-    print("0.25")  
+    tip_percent = 0.25
 else: 
-    print("invalid")  """
+    print("invalid") 
+tip=bill*tip_percent
+total=bill+tip
+print(f"Tip amount: $ {tip:.2f}")
+print(f"Total: $ {total:.2f}") """
 
-""" number = 12
+""" #factoring
+number = 12
 for i in range (1, number +1): 
     if(number % i== 0):
         print(i) """
 
-number1= 12
+""" #GCF
+number1= 48
+number2= 60
 factors_of_number1 = []
+gcf=1
 for i in range (1, number1 +1): 
     if number1 % i== 0:
         factors_of_number1.append(i)
-number2= 60
-factors_of_number2 = []
+
 for o in range (1, number2 +1): 
-    if number2 % o== 0:
-        factors_of_number2.append(o)
-
-common_factors= list(set(factors_of_number1) & set(factors_of_number2))
-gcf = max(common_factors)
-print("The GCF is:", gcf)
-
-"""def GCF(x,y):
-    if y==0:
-        return (x)
-    else: 
-        return GCF(y, x % y)
-
-print (GCF(9,3)) """
+    if number2 % o== 0 and o in factors_of_number1:
+       gcf = o
+print("GCF is: ", gcf)  """
 
 """ # similiar to the quiz 
 def skins(money, age, cost, isAvailable):

@@ -1,14 +1,13 @@
 balance= 500
-withdraw=input("Would you want to withdraw money: ")
 
-while balance != withdraw:
-    def balance(withdraw):
-        if withdraw<=balance== True:
-            return (new_balance)
-        new_balance= balance - withdraw 
-        if withdraw>balance== False:
-            return("insufficient funds so try again")
-        
-        
-        
-print("your new balance is: ", )
+while True:
+    withdrawal=input("How much do you want to withdraw? (type exit to quit): ")
+    if withdrawal == 'exit': 
+        break
+    elif withdrawal>balance:
+        print("insufficient funds so try again")
+    elif withdrawal<=balance:
+        new_balance = balance - withdrawal
+        print(f"New balance: ${new_balance}")
+    else:
+        print("invalid")
